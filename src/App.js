@@ -41,12 +41,12 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Outstanding Recipes</h1>
+      <h1>Dasha's Recipes</h1>
       <form className="search-form" onSubmit={onSubmit}>
         {alert != "" && <Alert alert={alert} />}
         <input
           type="text"
-          placeholder="Search food"
+          placeholder="Masha Give It a Search"
           autoComplete="off"
           onChange={onChange}
           value={query}
